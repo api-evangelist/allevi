@@ -1,7 +1,24 @@
 aid: allevi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allevi.png
 name: Allevi
-description: Allevi is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Allevi is a bioprinting company that designs and manufactures 3D bioprinters,
+  bioinks, and accompanying software for tissue engineering, regenerative medicine, and
+  life-sciences research. Its desktop bioprinters and biomaterials let researchers fabricate
+  living tissue constructs for drug discovery, disease modeling, and organ-on-chip work.
+  Allevi was acquired by 3D Systems and operates as part of its regenerative medicine
+  portfolio. The company publishes bioprinting protocols, application notes, webinars,
+  and white papers, but exposes no public web API, developer portal, or SDK at this time.
 url: https://raw.githubusercontent.com/api-evangelist/allevi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +31,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Bioprinting
+- 3D Printing
+- Bioinks
+- Tissue Engineering
+- Regenerative Medicine
+- Life Sciences
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://allevi3d.com
+  url: https://www.allevi3d.com
+- type: Blog
+  url: https://www.allevi3d.com/blog
+- type: Support
+  url: https://www.allevi3d.com/support
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
